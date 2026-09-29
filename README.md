@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="A cartoon pig gazing up at a blue cloud in a pastel sunset sky" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-night.png" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner.png" />
+    <img src="./assets/banner.png" alt="A cartoon pig gazing up at a blue cloud in the sky" width="100%" />
+  </picture>
 </p>
 
 ### Hi there 👋
